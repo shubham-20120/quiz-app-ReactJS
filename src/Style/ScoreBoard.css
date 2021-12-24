@@ -1,0 +1,28 @@
+.sb-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 98vh;
+}
+.sb-container{
+    height: auto;
+    width: 50vw;
+    background-color: rgb(240, 240, 240);
+    border-radius: 30px;
+    padding-bottom: 40px;
+}
+.sc-upper, .sc-lower{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 40px;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+.sc-left{
+    margin-left: 80px;
+    width: 20vw;
+}
+.sc-right{
+    margin-left: 30px;
+    width: 20vw;
+}
